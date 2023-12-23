@@ -69,7 +69,9 @@ export const Menu = () => {
               </p>
             </div>
 
-            <div className=" md:w-[300px] h-[300px] mt-5 border border-red-600 flex justify-center items-center text-[30px]">MAP</div>
+            <div className=" md:w-[300px] h-[300px] mt-5 border border-red-600 flex justify-center items-center text-[30px]">
+              MAP
+            </div>
           </div>
         </section>
       </div>

@@ -1,7 +1,5 @@
 import React from 'react'
 
 export const Gallery = () => {
-  return (
-    <div>Gallery</div>
-  )
+  return <div className=" h-screen">Gallery</div>;
 }

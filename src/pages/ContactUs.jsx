@@ -1,7 +1,5 @@
 import React from 'react'
 
 export const ContactUs = () => {
-  return (
-    <div>ContactUs</div>
-  )
+  return <div className=" h-screen">ContactUs</div>;
 }
