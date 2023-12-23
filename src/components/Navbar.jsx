@@ -4,6 +4,11 @@ import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
+
+  const handleClose = () => {
+    setOpen(false);
+  };
+
   return (
     <div>
       <div className=" hidden md:flex justify-between mx-5 items-center">
@@ -37,14 +42,30 @@ export const Navbar = () => {
       </div>
       {isOpen && (
         <div className=" text-right md:hidden shadow-2xl bg-gray-200 p-5 space-y-5 absolute top-17 right-7 capitalize font-semibold text-gray-800 translate-x-3 duration-150 flex flex-col">
-          <Link to={"/"}>Home</Link>
-          <Link to={"/about"}>About us </Link>
-          <Link to={"/products"}>products </Link>
-          <Link to={"/gallery"}>gallery </Link>
-          <Link to={"/info"}>architectural info </Link>
-          <Link to={"/events"}>events</Link>
-          <Link to={"/faq"}>FAQ</Link>
-          <Link to={"/contact-us"}>Contact us</Link>
+          <Link to={"/"} onClick={handleClose}>
+            Home
+          </Link>
+          <Link to={"/about"} onClick={handleClose}>
+            About us{" "}
+          </Link>
+          <Link to={"/products"} onClick={handleClose}>
+            products{" "}
+          </Link>
+          <Link to={"/gallery"} onClick={handleClose}>
+            gallery{" "}
+          </Link>
+          <Link to={"/info"} onClick={handleClose}>
+            architectural info{" "}
+          </Link>
+          <Link to={"/events"} onClick={handleClose}>
+            events
+          </Link>
+          <Link to={"/faq"} onClick={handleClose}>
+            FAQ
+          </Link>
+          <Link to={"/contact-us"} onClick={handleClose}>
+            Contact us
+          </Link>
         </div>
       )}
     </div>
