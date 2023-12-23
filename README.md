@@ -60,13 +60,7 @@ Follow these instructions to get AUTHENTIC ROOFING TILES up and running on your 
 
 ## Usage
 
-1. Launch the Wattpad application by following the installation instructions.
-
-2. Add devices by clicking on the "Add Device" button and provide the device name, power rating in watts, and daily usage in hours.
-
-3. The application will automatically calculate and display the daily, weekly, monthly, and yearly electricity costs in Nigerian Naira (₦).
-
-4. Review and analyze your power consumption data to make informed decisions on energy usage.
+ Launch the Authentic Roofing Tiles application by following the installation instructions.
 
 ## Screenshots
 #COMING SOON
