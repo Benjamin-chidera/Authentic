@@ -63,7 +63,10 @@ Follow these instructions to get AUTHENTIC ROOFING TILES up and running on your 
  Launch the Authentic Roofing Tiles application by following the installation instructions.
 
 ## Screenshots
-#COMING SOON
+![mobile](https://github.com/Benjamin-chidera/Authentic/assets/136095035/16ca266d-a742-45e3-a3e5-9f363ba390c8)
+
+## Video 
+https://www.webmobilefirst.com/en/screencasts/2QyChV-Ooy/
 
 *CHECK OUT MY APPLICATION*
 #COMING SOON
